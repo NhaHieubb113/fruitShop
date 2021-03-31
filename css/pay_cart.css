@@ -51,11 +51,14 @@
     margin-right: 120px;
 }
 
-.funtion button{
+.funtion .funtion_success{
+    justify-content: center;
     text-align: center;
-    width: 300px;
+    width: 200px;
+    padding: 5px;
     border-radius: 5px;
-    
+    color: white;
+    background-color: #0d6efd;
 }
 
 

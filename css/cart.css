@@ -154,7 +154,9 @@
     padding: 10px 0;
 }
 
-.danh_muc .order_action button{
+.danh_muc .order_action a{
+    border: none;
+    color: white !important;
     width: 100%;
     display: block;
     background: #003C2D;
