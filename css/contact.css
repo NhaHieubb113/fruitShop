@@ -127,6 +127,12 @@
   text-align: left;
 }
 
+.form_feedback input:focus, textarea:focus{
+  border: 1px solid #BED747;
+  outline: none;
+
+}
+
 .form_feedback input{
   border: 1px solid #BED747;
   box-shadow: none;
