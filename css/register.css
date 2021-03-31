@@ -1,0 +1,68 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+  background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-blend-mode: darken;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body a {
+  color: #003c2d;
+}
+
+body form {
+  width: 600px;
+  background-color: whitesmoke;
+	border-radius: 10px;
+  /* height: 500px; */
+}
+
+body form .gom {
+  margin: 50px;
+}
+
+body form .gom p {
+  margin-top: 45px;
+  text-align: center;
+  font-size: 25px;
+}
+
+body form .gom > input {
+  margin: 8px 0;
+  width: 500px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+body form .gom > button {
+  width: 100px;
+  padding: 10px;
+  margin: 0 200px;
+  letter-spacing: 1px;
+  background: #fff;
+  border-radius: 10px;
+}
+body form .gom > button:hover {
+	
+  color: #ad5b5b9a;
+}
+
+body form .gom p {
+  font-size: 16px;
+}
+
+label{
+  line-height: 5px;
+  font-weight: 800;
+}

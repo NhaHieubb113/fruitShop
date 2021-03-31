@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/pay_cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Pay cart</title>
+
+    <link rel="shortcut icon" href="//theme.hstatic.net/200000240163/1000672133/14/favicon.png?v=405" type="image/png">
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-6 pay_cart_left">
+                <div class="header">
+                    <div class="header_left">
+                        <h1>
+                            <a href="/html/home.html">SUNI GREEN FARM</a>
+                        </h1>
+                    </div>
+                    <!-- Breadcrumb -->
+                    <div class="container Breadc">
+                        <nav id="Breadc_nd" style="--bs-breadcrumb-divider: ' > ';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/html/cart.html">Giỏ hàng</a></li>
+                            <li class="breadcrumb-item" aria-current="page">
+                                Thông tin giao hàng
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                Phương thức thanh toán
+                            </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <div class="header_content">
+                        <h4>Thông tin giao hàng</h4>
+                        <p>
+                            Bạn đã có tài khoản?
+                            <a href="/html/login.html"> Đăng nhập</a>
+                        </p>
+                    </div>
+                    
+                    <div class="content_info">
+                        <form action="">
+                            <div class="text_box">
+                                <input type="text" placeholder="Họ và tên" style="width: 500px;">
+                                <input type="email" placeholder="Email" style="width: 300px;">
+                                <input type="text" placeholder="Số điện thoại" style="width: 195px;">
+                                <input type="text" placeholder="Địa chỉ" style="width: 500px;">
+                            </div>
+                            
+                            <div class="radio_box">
+                                <h4>Chọn phương nhận hàng</h4>
+                                <div class="radio">
+                                    <label for="">
+                                        <input type="radio" name="method_receive" >
+                                        <span>Giao tận nơi</span>
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label for="">
+                                        <input type="radio"  name="method_receive">
+                                        <span>Nhận tại cửa hàng</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="radio_box">
+                                <h4>Chọn phương thức thanh toán</h4>
+                                <div class="radio">
+                                    <label for="">
+                                        <input type="radio" name="method_pay">
+                                        <span>Tiền mặt</span>
+                                    </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label for="">
+                                            <input type="radio"  name="method_pay">
+                                            <span>Airpay/Internet banking</span>
+                                        </label>
+                                    </div>
+                            </div>
+
+                            <div class="funtion">
+                                <a href="/html/cart.html">
+                                    <i class="fa fa-reply"></i>
+                                    Giỏ hàng
+                                </a>
+                                <button type="button" class="btn btn-primary">Đặt hàng</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 pay_cart_right">
+                <div class="table_card">
+                    <div class="line-item-container">
+                        <div class="image">
+                            <img src="https://product.hstatic.net/200000240163/product/bapnep_4e9e92dae68641b396e4ce2e1aa57945_medium.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <div class="info_item">
+                                <h3>Bắp nếp</h3>
+                                <span class="variant_title">Trái</span>
+                                <span id="number_pro">1</span>
+                            </div>
+                            
+                            <p class="price">
+                                <span>₫</span><span>28,800</span>
+                            </p>
+                        </div>
+                    </div>
+
+                      <div class="line-item-container">
+                        <div class="image">
+                            <img src="https://product.hstatic.net/200000240163/product/bapnep_4e9e92dae68641b396e4ce2e1aa57945_medium.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <div class="info_item">
+                                <h3>Bắp nếp</h3>
+                                <span class="variant_title">Trái</span>
+                                <span id="number_pro">1</span>
+                            </div>
+                            
+                            <p class="price">
+                                <span>₫</span><span>28,800</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="discount">
+                    <select name="" id="discount_code"></select>
+                    <button type="button" class="btn btn-success">Sử dụng</button>
+                </div>
+
+                <div class="detail">
+                    <div class="detail_price">
+                        <p>
+                            Tạm tính: 
+                            <span>₫</span><span>0</span>
+                        </p>
+
+                        <p>
+                            Phí vận chuyển: 
+                            <span>₫</span><span>0</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="detail_price">
+                    <p>
+                        Tổng tiền:  
+                        <span>₫</span><span>28,800</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>

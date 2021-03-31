@@ -1,0 +1,44 @@
+.content{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    /* background: ; */
+}
+
+.content h1 i{
+    margin-left: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+.content_info{
+    text-align: left;
+    padding: 30px 200px;
+    margin-left: 210px;
+}
+
+.funtion{
+    margin: 10px 0;
+    display: flex;
+}
+
+.funtion a{
+    text-align: left;
+    width: 200px;
+    padding: 10px;
+    text-decoration: none; 
+    margin-right: 120px;
+    border: none;
+    background-color: #338dbc;
+    color: black;
+    border-radius: 5px;
+}
+
+.funtion button{
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+    
+}
