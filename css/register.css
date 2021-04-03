@@ -22,10 +22,10 @@ body a {
 }
 
 body form {
+  margin-top: 20px;
   width: 600px;
   background-color: whitesmoke;
 	border-radius: 10px;
-  /* height: 500px; */
 }
 
 body form .gom {
@@ -39,14 +39,18 @@ body form .gom p {
 }
 
 body form .gom > input {
+  outline: none;
+  height: 38px;
+  padding: 0px 20px;
   margin: 8px 0;
   width: 500px;
-  padding: 5px;
+  border: 2px solid #bed747;
   border-radius: 10px;
 }
 
 body form .gom > button {
   width: 100px;
+  border: 2px solid #bed747;
   padding: 10px;
   margin: 0 200px;
   letter-spacing: 1px;
@@ -54,15 +58,14 @@ body form .gom > button {
   border-radius: 10px;
 }
 body form .gom > button:hover {
-	
-  color: #ad5b5b9a;
+	background: #bed747;
 }
 
 body form .gom p {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 label{
   line-height: 5px;
-  font-weight: 800;
 }

@@ -172,6 +172,7 @@ h1, h2, h3, h4, h5, h6{
 
 .send_email input{
     height: 50px;
+    outline: none;
     line-height: 25px;
     color: #999999;
     padding: 10px 20px;

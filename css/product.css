@@ -96,6 +96,7 @@
 
   .content_product input{
       border: 2px solid #bed747;
+      outline: none;
       border-radius: 15px;
       width: 100px;
       text-align: center;
@@ -146,6 +147,7 @@
 
 .send_email input{
     height: 50px;
+    outline: none;
     line-height: 25px;
     color: #999999;
     padding: 10px 20px;

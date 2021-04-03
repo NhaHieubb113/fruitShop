@@ -119,7 +119,7 @@
 
 .add i{
   font-size: 14px;
-  transform: translateX(3px) translateY(-3px);
+  transform: translateX(1px) translateY(0px);
 }
 
 .add:hover{
@@ -189,6 +189,7 @@ h1, h2, h3, h4, h5, h6{
 
 .send_email input{
     height: 50px;
+    outline: none;
     line-height: 25px;
     color: #999999;
     padding: 10px 20px;
