@@ -45,6 +45,20 @@
   
   .t_search {
     border-radius: 50px !important;
+    width: 260px !important;
+    height: 30px;
+  }
+  
+  .btn_search{
+    padding: 0px 0px;
+    border: none;
+    background-color: white;
+  
+  }
+  
+  .icon{
+    margin-left: 15px;
+    font-size: 15px;
   }
   
   .dropdown{
@@ -61,11 +75,6 @@
   
   .dropdown:hover .dropdown-content{
     display: block; /*hiện danh sách đổ xuống khi hover vào*/
-  }
-  
-  .icon{
-    margin-left: 15px;
-    font-size: 25px;
   }
   
   .Breadc{
