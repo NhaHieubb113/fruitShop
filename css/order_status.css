@@ -105,7 +105,8 @@
 
 .mini_menu{
     background-color: #fafafa;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 0;
 }
 
 .mini_menu a{
