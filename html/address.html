@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/address.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,7 +15,7 @@
 </head>
 <body>
 <!-- header -->
-    <div class="header">
+    <div class="header" id="header">
     <div class="top">
       <p style="color: #fbbe9f;">Miễn phí vận chuyển với đơn trên 500k</p>
     </div>
@@ -22,7 +23,7 @@
     <nav id ="menubar" class=" navbar navbar-expand-lg navbar-light ">
       <div class="container menu">
         <a class="navbar-brand mg_right" href="home.html">
-          <img src="https://theme.hstatic.net/200000240163/1000672133/14/logo.png?v=405" alt="SUNI GREEN FARM" />
+          <img src="https://theme.hstatic.net/200000240163/1000672133/14/logo.png?v=405" alt="SUNI GREEN FARM"/>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,20 +31,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="#" alt="Trang chủ">Trang chủ</a>
+              <a class="nav-link active" href="home.html" alt="Trang chủ">Trang chủ</a>
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link" href="list_product.html" id="navbarDropdown"  alt="Sản Phẩm">Sản Phẩm</a>
+              <a class="nav-link" href="list_product.html" id="navbarDropdown"  alt="Sản Phẩm">
+                Sản Phẩm
+                <i class="fas fa-angle-down"></i>
+              </a>
               <div class="dropdown-content">
-              <a class="dropdown-item" href="#">Rau củ quả tươi</a>
-              <a class="dropdown-item" href="#">Trái Cây</a>
-              <a class="dropdown-item" href="#">Nấm tươi</a>
+              <a class="dropdown-item" href="list_product.html">Rau củ quả tươi</a>
+              <a class="dropdown-item" href="list_product.html">Trái Cây</a>
+              <a class="dropdown-item" href="list_product.html">Nấm tươi</a>
               </div>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="blog.html" alt="Blog">Blog</a>
+              <a class="nav-link" href="list_blog.html" alt="Blog">Blog</a>
             </li>
 
             <li class="nav-item">
@@ -132,6 +136,28 @@
             </div>
           </div>
     </div>
+
+    <div class="addThis_listing">
+      <!-- cuộn lên đầu trang -->
+     <div class="back-to-top">
+       <a href="#header"></a>
+     </div>
+ 
+     <!-- Dẫn đến trang liên hệ-->
+     <div class="addThis_Contact">
+       <a href="contact.html" title="Đăng kí thông tin và để lại lời nhắn">
+         <i class="fas fa-envelope"></i>
+       </a>
+     </div>
+ 
+     <!-- Dẫn dến trang địa chỉ -->
+     <div class="addThis_Address">
+       <a href="address.html" title="Xem địa chỉ cửa hàng">
+         <i class="fas fa-map-marker-alt"></i>
+       </a>
+     </div>
+ 
+   </div>
 
     <div class="container-fluid mt-5 end">
         <div class="customer d-flex">

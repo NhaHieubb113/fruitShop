@@ -1,0 +1,63 @@
+html{
+    font-size: 16px;
+}
+
+.modal_add_product{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+}
+
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.modal__body{
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 600px;
+    height: 300px;
+}
+
+.card{
+    padding: 20px;
+    border: none !important;
+}
+
+.card_body{
+    display: block;
+    text-align: left !important;
+}
+
+.title{
+    padding: 20px;
+    border-bottom: 1px solid #c2bbbb;
+}
+
+.add_function_button{
+    display: flex;
+}
+
+.quantity-area input{
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px soild green;
+    margin-right: 80px;
+    border: 2px solid #bed747;    
+}
+
+.detail_product{
+    margin-top: 20px;
+}

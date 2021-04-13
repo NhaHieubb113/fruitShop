@@ -3,82 +3,6 @@
   padding: 0;
 }
 
-a{
-  color: #003c2d !important;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-a:hover{
-  color: #FAA634 !important;
-}
-
-.menu a:hover{
-  color: #bed747 !important;
-}
-
-.top {
-  text-align: center;
-  background: #003c2d;
-  padding-left: 0;
-  padding-right: 0;
-  height: 30px;
-}
-
-.menu {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border-radius: 50px;
-  border-style: solid;
-  border-color: #bed747;
-}
-
-#menubar {
-  height: 100%;
-  padding: 0;
-}
-
-#menubar img {
-  width: 70%;
-  height: 50%;
-}
-
-.t_search {
-  border-radius: 50px !important;
-  width: 260px !important;
-  height: 30px;
-}
-
-.btn_search{
-  padding: 0px 0px;
-  border: none;
-  background-color: white;
-
-}
-
-.icon{
-  margin-left: 15px;
-  font-size: 15px;
-}
-
-
-.dropdown{
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content{
-  display: none; /*ẩn danh sách đổ xuống*/
-  position: absolute;
-  z-index: 1;
-  background-color: #f5f5f5;
-}
-
-.dropdown:hover .dropdown-content{
-  display: block; /*hiện danh sách đổ xuống khi hover vào*/
-}
-
-
 .carousel-inner img{
   border-radius: 20px;
 }
@@ -156,8 +80,8 @@ a:hover{
 
 .add{
   border: none;
+  border-radius: 50px;
   background-color: white;
-  border-radius: 50%;
   width: 20px;
   height: 20px;
   position: relative;
@@ -165,6 +89,7 @@ a:hover{
   right: -72px;
   opacity: 0;
   visibility: hidden;
+  
 }
 
 .add i{
@@ -228,17 +153,19 @@ h1, h2, h3, h4, h5, h6{
   color: white ;
 }
 
+.phan_loai{
+  overflow: hidden;
+}
+
 .phan_loai img{
   display: block;
   max-width: 100%;
   height: auto;
-  overflow: hidden;
 }
 
 .phan_loai img:hover{
   transition: transform .2s;
   transform: scale(1.1);
-  overflow: hidden;
 }
 
 .function_button{
@@ -379,6 +306,57 @@ li a{
 .company a{
   text-decoration: none;
 }
+.addThis_listing{
+  display: block;
+}
+
+.addThis_Address {
+  position: relative;
+}
+
+.addThis_Address a {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #BED747;
+  position: fixed;
+  bottom: 160px;
+  right: 20px;
+}
+
+.addThis_Address i {
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 25%;
+  right: 30%;
+}
+
+.addThis_Contact {
+  position: relative;
+}
+
+.addThis_Contact a {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #BED747;
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+}
+
+.addThis_Contact i {
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 25%;
+  right: 25%;
+}
 
 .back-to-top {
   position: relative;
@@ -409,5 +387,5 @@ li a{
 
 html, body{
   scroll-behavior: smooth;
-}
+} 
 /* # sourceMappingURL=home.css.map */

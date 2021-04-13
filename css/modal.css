@@ -1,0 +1,82 @@
+html{
+    font-size: 16px;
+}
+
+.modal_product_reviews{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+}
+
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.modal__body{
+    
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 500px;
+}
+
+
+.card_picture__product_reviews img{
+    width: 125px;
+}
+
+.detail_content{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.detail_content_star{
+    font-size: 35px;
+}
+
+.detail_content_text textarea{
+    width: 85%;
+    border-radius: 20px;
+    padding: 20px;
+    outline: none;
+}
+
+.detail_content_picture {
+    display: block;
+    padding: 25px 20px;
+}
+
+.detail_content_picture input{
+    width: 85%;
+}
+
+.detail_content_button{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 38px;
+}
+
+.detail_content_button a{
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.title{
+    padding: 20px;
+}
+
+.card{
+    margin: 0px 20px;
+    height: 100%;
+    overflow: hidden;
+}

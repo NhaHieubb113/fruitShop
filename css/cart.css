@@ -12,70 +12,6 @@
   a:hover{
     color: #FAA634 !important;
   }
-  
-  .menu a:hover{
-    color: #bed747 !important;
-  }
-  
-  .top {
-    text-align: center;
-    background: #003c2d;
-    padding-left: 0;
-    padding-right: 0;
-    height: 30px;
-  }
-  
-  .menu {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: #bed747;
-  }
-  
-  #menubar {
-    height: 100%;
-    padding: 0;
-  }
-  
-  #menubar img {
-    width: 70%;
-    height: 50%;
-  }
-  
-  .t_search {
-    border-radius: 50px !important;
-    width: 260px !important;
-    height: 30px;
-  }
-  
-  .btn_search{
-    padding: 0px 0px;
-    border: none;
-    background-color: white;
-  
-  }
-  
-  .icon{
-    margin-left: 15px;
-    font-size: 15px;
-  }
-  
-  .dropdown{
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content{
-    display: none; /*ẩn danh sách đổ xuống*/
-    position: absolute;
-    z-index: 1;
-    background-color: #f5f5f5;
-  }
-  
-  .dropdown:hover .dropdown-content{
-    display: block; /*hiện danh sách đổ xuống khi hover vào*/
-  }
 
   .Breadc{
     background: #003c2d;
@@ -261,6 +197,7 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
     margin-right: 10px;
     padding: 5px;   
+    outline: none;
 }
 
 .price{
@@ -338,6 +275,7 @@ h1, h2, h3, h4, h5, h6{
     border: 2px solid #BED747;
     border-radius: 25px;
     width: 340px;
+    outline: none;
   }
   
 .send_email button{
