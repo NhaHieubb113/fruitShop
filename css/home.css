@@ -17,9 +17,9 @@
   height: 80%;
 }
 
+
 .khoi{
   border-radius: 20px;
-
 }
 
 .khoi a{
@@ -27,6 +27,10 @@
   font-size: 13px;
   font-weight: 700;
 }
+
+/* .card_news{
+  padding: 0;
+} */
 
 .khoi img{
   max-width: 100%;
